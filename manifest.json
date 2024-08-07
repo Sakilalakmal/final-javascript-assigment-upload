@@ -1,0 +1,39 @@
+{
+  "name": "Green Store Online",
+  "short_name": "GreenStore",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#8000ff",
+  "theme_color": "black",
+  "icons": [
+    {
+      "src": "./images/192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./images/512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "./images/144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "./images/desktop-manifest.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "./images/mobile-manifest.png",
+      "sizes": "375x667",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ]
+}
